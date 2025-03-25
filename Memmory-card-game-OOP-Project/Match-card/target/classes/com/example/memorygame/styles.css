@@ -1,0 +1,57 @@
+
+
+
+/* styles.css */
+
+.root {
+    -fx-background-color: #282c34; /* Dark background color */
+}
+
+
+
+.button {
+    -fx-background-color: #61afef; /* Light blue background */
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+    -fx-transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    -fx-background-color: #56b6c2; /* Darker blue when hovered */
+}
+
+.vbox {
+    -fx-spacing: 15px;
+    -fx-padding: 20px;
+    -fx-background-color: #282c34;
+    -fx-border-color: #61afef;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;
+    -fx-alignment: center;
+}
+
+.label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #abb2bf; /* Light gray text color */
+}
+
+/* alertStyle.css */
+
+.alert {
+    -fx-background-color: #e1f5fe;
+    -fx-text-fill: #1976d2;
+    -fx-font-size: 16px;
+}
+
+.alert .header {
+    -fx-font-weight: bold;
+    -fx-text-fill: #0288d1;
+}
+
+.alert .content {
+    -fx-font-style: italic;
+}
