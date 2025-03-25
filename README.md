@@ -26,7 +26,7 @@
 ```bash
 git clone https://github.com/HIimPuay/memory-card-game-oop-project.git
 
-## โครงสร้างไฟล์
+### โครงสร้างไฟล์
 src/main/java/com/example/memorygame
   Main.java                    : ไฟล์หลักที่เริ่มการทำงานของระบบ
   MemoryGameController.java    : ควบคุมการทำงานของเกมและเชื่อมต่อกับอินเทอร์เฟซ
